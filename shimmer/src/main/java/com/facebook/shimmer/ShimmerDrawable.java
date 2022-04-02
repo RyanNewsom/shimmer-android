@@ -38,8 +38,8 @@ public final class ShimmerDrawable extends Drawable {
   private final Rect mDrawRect = new Rect();
   private final Matrix mShaderMatrix = new Matrix();
 
-  @Nullable ValueAnimator mValueAnimator;
-  float mStaticAnimationProgress = -1f;
+  public @Nullable ValueAnimator mValueAnimator;
+  public float mStaticAnimationProgress = -1f;
 
   private @Nullable Shimmer mShimmer;
 

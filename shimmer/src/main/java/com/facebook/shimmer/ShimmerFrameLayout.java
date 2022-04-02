@@ -30,7 +30,7 @@ import androidx.annotation.Nullable;
  */
 public class ShimmerFrameLayout extends FrameLayout {
   private final Paint mContentPaint = new Paint();
-  final ShimmerDrawable mShimmerDrawable = new ShimmerDrawable();
+  public final ShimmerDrawable mShimmerDrawable = new ShimmerDrawable();
 
   private boolean mShowShimmer = true;
   private boolean mStoppedShimmerBecauseVisibility = false;
